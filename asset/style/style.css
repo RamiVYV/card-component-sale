@@ -1,0 +1,147 @@
+/* ---------------------------FONTS----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* ---------------------------VAR----------------------------- */
+:root{
+    --Montserrat:'Montserrat', sans-serif;
+    --Black:black;
+    --White: white ;
+    --Blue:blue ;
+    }
+/* ----------------------------ALL----------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    font-family: var(--Montserrat);
+    
+}
+/* ---------------------------MAIN----------------------------- */
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.card{
+    height: 420px;
+    width: 430px;
+    border: 1px var(--Black) solid;
+    background-color: var(--Black);
+
+}
+.card__date{
+    height: 80px;
+    width: 100%;
+    color: var(--White);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__sale--black{
+    height: 70px;
+    width: 100%;
+    background-color: var(--White);
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__sale--friday{
+    height: 190px;
+    width: 100%;
+    color: var(--White);
+    font-size: 4.5rem;
+    font-weight: bolder;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card__sale--discount{
+    height: 20px;
+    width: 100%;
+    background-color: var(--White);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__sale__bottom{
+    height: 60px;
+    font-size: 1.5rem;
+    color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+strong{
+    font-weight: 700;
+ 
+}
+/* ------------------SECOND---------------- */
+
+.card__two{
+    height: 420px;
+    width: 430px;
+    border: 1px var(--Black) solid;
+    overflow: hidden;
+
+}
+.card__date__two{
+    height: 80px;
+    width: 100%;
+    color: var(--Blue);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2rem solid blue;
+}
+.card__sale__two--black{
+    height: 70px;
+    width: 100%;
+    background-color: var(--Black);
+    color: var(--White);
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__sale__two--friday{
+    height: 190px;
+    width: 100%;
+    color: var(--Black);
+    font-size: 4.5rem;
+    font-weight: bolder;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card__sale__two--discount{
+    height: 20px;
+    width: 100%;
+    color: var(--Blue);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+.card__sale__bottom__two{
+    height: 60px;
+    font-size: 1rem;
+    border-bottom: 2.5rem  solid blue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--Blue);
+}
